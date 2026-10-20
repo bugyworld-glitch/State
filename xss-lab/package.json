@@ -1,0 +1,15 @@
+{
+  "name": "xss-lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A small, deliberately vulnerable web app for practising DOM-based and reflected XSS, with an optional Content-Security-Policy.",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "start:csp": "CSP=on node server.js"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "license": "MIT"
+}
